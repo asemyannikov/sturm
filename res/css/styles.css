@@ -1,0 +1,153 @@
+/* Font Faces */
+@font-face {
+    font-family: 'Kaiser';
+    src: url('res/fonts/KaiserRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Vollkorn';
+    src: url('res/fonts/Vollkorn-VariableFont_wght.ttf') format('truetype');
+    font-weight: 100 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Vollkorn';
+    src: url('res/fonts/Vollkorn-Italic-VariableFont_wght.ttf') format('truetype');
+    font-weight: 100 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+/* CSS Variables */
+:root {
+    --bg-color: #fdfbf7;
+    --text-color: #4a4a4a;
+    --accent-color: #9a3a36ff;
+    --border-color: #4a4a4a;
+}
+
+/* Base Styles */
+body {
+    font-family: 'Vollkorn', 'Georgia', serif;
+    font-size: 1.1em;
+    line-height: 1.8;
+    color: var(--text-color);
+    background-color: var(--bg-color);
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+/* Headings */
+h1 {
+    font-family: 'Kaiser', 'Georgia', serif;
+    font-weight: normal;
+    text-align: center;
+    color: var(--accent-color);
+    font-size: 2.4em;
+    margin-bottom: 10px;
+    border-bottom: 2px solid var(--border-color);
+    padding-bottom: 15px;
+    letter-spacing: 1px;
+}
+
+h2, h3 {
+    font-family: 'Vollkorn', 'Georgia', serif;
+    font-weight: 600;
+}
+
+h2 {
+    color: #4a4a4a;
+    font-size: 1.4em;
+    margin-top: 40px;
+    border-left: 4px solid #4a4a4a;
+    padding-left: 15px;
+}
+
+h3 {
+    font-size: 1.3em;
+    margin-top: 25px;
+    color: #4a4a4a;
+}
+
+/* Text Elements */
+p {
+    text-align: justify;
+    margin-bottom: 15px;
+    text-indent: 1.5em;
+}
+
+ul, ol {
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 12px;
+}
+
+/* Mathematical Blocks */
+.math-block {
+    overflow-x: auto;
+    margin: 20px 0;
+    text-align: center;
+}
+
+/* Blockquotes */
+blockquote {
+    border-left: 3px solid var(--border-color);
+    margin: 20px 0;
+    padding: 10px 20px;
+    background-color: #f4f0ea;
+    font-style: italic;
+    color: #555;
+    font-size: 0.85em;
+    letter-spacing: 0.03em;
+}
+
+/* Table of Contents */
+.toc a {
+    text-decoration: none;
+    color: #4a4a4a;
+    border-bottom: 1px dashed #4a4a4a;
+}
+
+.toc a:hover {
+    color: #8b5a4a;
+}
+
+/* Special Elements */
+.principle-title {
+    font-weight: 700;
+    color: #4a4a4a;
+}
+
+/* Footer */
+footer {
+    margin-top: 60px;
+    text-align: center;
+    font-size: 0.9em;
+    color: #777;
+    border-top: 1px solid var(--border-color);
+    padding-top: 20px;
+}
+
+/* Italic Text Spacing */
+em, i {
+    letter-spacing: 0.03em;
+}
+
+/* Subtitle inside the main h1 heading */
+.h1-subtitle {
+    display: block;
+    font-size: 0.55em;
+    font-weight: normal;
+    margin-top: 15px;
+    letter-spacing: 0.5px;
+    color: #4a4a4a;
+}

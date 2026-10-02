@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Poison of Purity – The Structural Contradiction of Moral Sanction in Hildebrand's Axiology</title>
+    <link rel="stylesheet" href="res/css/styles.css">
+    
+    <!-- MathJax for rendering formulas in $$ and $ tags -->
+    <script>
+        MathJax = {
+            tex: {
+                inlineMath: [['$', '$']],
+                displayMath: [['$$', '$$']]
+            }
+        };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+
+    <h1>The Poison of Purity <span class="h1-subtitle">The Structural Contradiction of Moral Sanction in Hildebrand's Axiology</span></h1>
+    <p style="text-align: center; font-style: italic; color: #666; letter-spacing: 0.03em;">A Logico-Phenomenological Analysis of the Problem of Moral Merit in the Affective Sphere</p>
+
+    <!-- 0. Table of Contents -->
+    <h2 id="toc">0. Table of Contents</h2>
+    <div class="toc">
+        <ul>
+            <li><a href="#abstract">1. Abstract and Thesis of the Aporia</a></li>
+            <li><a href="#foundation">2. Foundation: Value as the Source of Motivation</a>
+                <ul>
+                    <li><a href="#importance">2.1. Importance and Its Three Categories</a></li>
+                    <li><a href="#two-values">2.2. Two Kinds of Values: Object-Value and Moral Value</a></li>
+                    <li><a href="#value-response">2.3. Value-Response</a></li>
+                </ul>
+            </li>
+            <li><a href="#principles">3. The Six Principles</a></li>
+            <li><a href="#aporia">4. The Aporia of the Heart</a>
+                <ul>
+                    <li><a href="#scope">4.1. Scope</a></li>
+                    <li><a href="#tension">4.2. The Key Tension</a></li>
+                    <li><a href="#axioms">4.3. Axioms</a></li>
+                    <li><a href="#theorem">4.4. Theorem (The Aporia of the Heart)</a></li>
+                    <li><a href="#consequence">4.5. Consequence: The Affective Sphere as Debit Without Credit</a></li>
+                </ul>
+            </li>
+            <li><a href="#objections">5. Three Objections</a></li>
+            <li><a href="#asymmetry">6. The Decisive Blow: Asymmetry of Sanction and Disavowal</a>
+                <ul>
+                    <li><a href="#eidetic">6.1. Can the Asymmetry Be Grounded Eidetically?</a></li>
+                    <li><a href="#dilemma">6.2. The Final Dilemma</a></li>
+                </ul>
+            </li>
+            <li><a href="#limits">7. What the Aporia Does Not Prove</a></li>
+            <li><a href="#defenses">8. Anticipation of Defenses</a>
+                <ul>
+                    <li><a href="#defense-1">8.1. Self-Transcendence vs. Self-Objectification</a></li>
+                    <li><a href="#defense-2">8.2. Eidetic Status of Asymmetry via Ontology of Good and Evil</a></li>
+                    <li><a href="#defense-3">8.3. Contrition as «Kenosis»</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <!-- ================================================================== -->
+    <!-- 1. Abstract and Thesis -->
+    <!-- ================================================================== -->
+    <h2 id="abstract">1. Abstract and Thesis of the Aporia</h2>
+    
+    <h3>Abstract</h3>
+    <p>
+        At the core of Dietrich von Hildebrand's ethics lies the assertion that affective value-responses (such as love, reverence, or contrition) possess unique moral perfections unavailable to volitional acts. To attain full moral dignity (<em>moral merit</em>), such a response requires the act of «sanction» – a free and conscious identification of the spiritual center of the person with the given response. However, von Hildebrand simultaneously formulates a strict prohibition against the thematization of one's own moral goodness in the course of performing the act, viewing such a reflexive look at oneself as destroying the authenticity of the response and manifesting pride.
+    </p>
+    <p>
+        This paper reveals a structural contradiction (the «Aporia of the Heart») in the intentional logic of von Hildebrand's system. The aporia arises at the intersection of the demand for ultimate moral consciousness in sanction and the prohibition against the reflexive contemplation of one's own moral value.
+    </p>
+    <p class="note">
+        <strong>Source.</strong> All citations refer to: Dietrich von Hildebrand, <em>Christian Ethics</em> (New York: David McKay, 1953). Chapter and page numbers are verified against this edition. Later reprints appeared under the title <em>Ethics</em> (1972) with the same pagination.
+    </p>
+
+    <h3>Thesis of the Aporia</h3>
+    <p>
+        <strong>Thesis:</strong> For no subject $s$ and for no morally relevant object $x$ does there exist an affective value-response $r$ possessing full moral value ($M_{\text{full}}$). 
+    </p>
+    <p>
+        The justification of the thesis reduces to the fact that the necessary condition for achieving the full moral value of an affective response (the act of sanction, <em>Principle 2</em>) logically entails the thematization of the moral quality of one's own act (<em>Principle 6</em>). However, such thematization, by virtue of the established prohibition (<em>Principle 5</em>), destroys this very moral value. The affective sphere thus turns into a domain where moral guilt is possible, but moral merit is structurally unattainable.
+    </p>
+
+    <h4 id="example">Example of Application: The Paradox of Contrition</h4>
+    <p>
+        The formal apparatus below can obscure how ordinary the situation described by the thesis is. So let us take the case in which the two requirements collide most visibly: <em>contrition</em> – sorrow over one's own moral evil.
+    </p>
+    <p>
+        Suppose I have betrayed a friend, and later the full weight of what I did reaches me, and I am shaken by grief over it. Hildebrand regards precisely such a movement as one of the summits of the affective sphere: he speaks of «the moral beauty of a deep contrition» (ch.27, p.319) and names contrition alongside love and joy among the responses whose moral dignity his book was written to defend (ch.27, p.326). Here, moreover, the reflexive look is not merely permitted but prescribed: one's own moral disvalues «should be made into an object in an examination of conscience or in contrition» (ch.19, p.243).
+    </p>
+    <p>
+        Two of his rules now bear upon this single movement of my heart. <em>The first</em>: an affective response acquires full moral value only if my free spiritual centre sanctions it, saying its «yes» to it from within (ch.25, p.299; ch.27, p.318) – and sanction is possible only toward a response grasped as morally positive, since express identification with a morally negative response is not sanction but its «diabolical caricature» (ch.25, p.302, p.305). <em>The second</em>: the moral value of my own act must not be looked at while the act is being accomplished – «we are unable to look at them lest we distort the normal and genuine accomplishment of our attitude» (ch.19, p.242), and the squinting look at one's own goodness is «a poison corroding the real moral value of our attitude» (ch.19, p.243).
+    </p>
+    <p>
+        This creates a paradox. For my repentance to be a moral act of the heart and not merely an emotional episode, I must look at its moral perfection – otherwise I cannot tell whether what is called for here is sanction or disavowal. But the moment I look, I am distracted from the object: my gaze leaves the betrayal and the wounded friend and comes to rest on the quality of my own grief – how sincerely, how deeply I repent – and I fall into self-admiration. By Hildebrand's own verdict the response is poisoned at the very instant it would be crowned. And if I do not look, I fail to fulfil the first rule: the grief remains a spontaneous emotion without moral value, «not sufficiently connected with our freedom to constitute a morally good attitude in the full sense» (ch.25, p.309). It may render me lovable; it cannot be credited to me as merit.
+    </p>
+    <p>
+        Nothing in this example turns on vanity or bad faith. The subject is not a Pharisee; he does precisely what is asked of him. The fork opens in the <em>intentional structure</em> of the required act, not in the purity of his motives – which is why §4 can establish it as a theorem for every affective response, and why §6 can show that contrition is the point at which the system's own asymmetry between sanction and disavowal breaks apart.
+    </p>
+
+    <!-- ================================================================== -->
+    <!-- 2. Foundation -->
+    <!-- ================================================================== -->
+    <h2 id="foundation">2. Foundation: Value as the Source of Motivation</h2>
+
+    <p>
+        According to von Hildebrand, ethics is inseparable from motivation. Facts by themselves are neutral and do not impel action. Only those objects and phenomena that are endowed with «importance» and elicit an emotional or value-response (Ger. <em>Wertantwort</em>) possess the motive force of human conduct.
+    </p>
+
+    <h3 id="importance">2.1. Importance and Its Three Categories</h3>
+    <p>
+        «Importance» (<em>Bedeutsamkeit</em>, <em>Wichtigkeit</em>) is the generic concept for everything that matters to a subject and is capable of motivating him, as opposed to a neutral fact. It is not merely a subjective opinion: in its highest form, importance is a quality that «demands» a certain attitude.
+    </p>
+    <p>Importance manifests itself in three irreducible categories:</p>
+    <ol>
+        <li>
+            <em>The merely subjectively satisfying</em>: that which answers individual inclinations or brings sensory pleasure (e.g. agreeable food or comfort). This importance is purely relational: it is not a property of the object.
+        </li>
+        <li>
+            <em>The objective good for the person</em>: that which corresponds to the true interests of human nature and contributes to its flourishing (e.g. health, safety, knowledge), regardless of whether the individual desires it at the given moment.
+        </li>
+        <li>
+            <em>Value</em> (Ger. <em>Wert</em>; the <em>important-in-itself</em>): intrinsic, unconditional, and objective importance that obliges a response in and of itself, by virtue of its ontological perfection (e.g. justice, beauty, holiness, or the dignity of the person), independently of any benefit or pleasure for the subject.
+        </li>
+    </ol>
+    <p>
+        This distinction is not a classificatory detail but the load-bearing structure of the entire system. It fixes what Hildebrand prohibits when he demands «purity» of the value-response: excluded is the admixture of the <em>merely subjectively satisfying</em> and the <em>objective good for the person</em>, not every motive distinct from the value of the given object (axiom A2 below). This is why the aporia is built on <em>reflexivity</em> and not on impurity of motive.
+    </p>
+
+    <h3 id="two-values">2.2. Two Kinds of Values: Object-Value and Moral Value</h3>
+    <p>
+        For the entire subsequent reasoning, a further demarcation is critically important – one that Hildebrand draws sharply and that is easy to miss.
+    </p>
+    <p>
+        <em>Object-values</em> – ontological and qualitative values: the dignity of the person, the justice of a cause, the beauty of a work. They belong to the object and address their call to the subject.
+    </p>
+    <p>
+        <em>Moral values</em> – values that can be realized exclusively in the acts and attitudes of the person herself:
+    </p>
+    <blockquote>
+        «No impersonal being, strictly speaking, can be morally good. Only real persons, their acts and attitudes, can be morally good or bad. &lt;…&gt; Thus, we must state as the first decisive characteristic of moral values that they presuppose a person, that they are essentially values of a person.» (ch.15, p.153)
+    </blockquote>
+    <p>
+        Thus in every moral event two values with different bearers participate: the value of the object $v(x)$, whose bearer is the object, and the moral value $M(r)$, whose bearer is the act of the subject itself. The aporia set out below lives precisely in the gap between these two bearers.
+    </p>
+
+    <h3 id="value-response">2.3. Value-Response</h3>
+    <p>
+        A value-response is an intentional, free, and conscious answer of the whole person to a perceived value of the object. It is neither a blind volitional impulse, nor an instinct, nor a subjective projection of emotion. It unites reason, will, and «the heart» (which von Hildebrand regards as the centre of spiritual-emotional life) in order to form a reaction adequate to the dignity of the object.
+    </p>
+    <p>
+        Value-responses fall into two classes, and this division will prove decisive: <em>volitional</em> responses, from which actions issue, and <em>affective</em> responses – joy, sorrow, love, reverence, contrition. Hildebrand wrote his book in large part to defend the moral dignity of the second class against the entire tradition that reduced morality to will and action.
+    </p>
+
+    <!-- ================================================================== -->
+    <!-- 3. The Six Principles -->
+    <!-- ================================================================== -->
+    <h2 id="principles">3. The Six Principles</h2>
+    <p>
+        The argument proceeds in three steps. First, six principles that Hildebrand asserts himself are isolated. Then the aporia is presented, striking not at motives but at the <em>intentional structure</em> of the moral act. And finally it is shown that the only ground on which Hildebrand can defend himself is of an ascetic-theological nature, and that the attempt to ground it eidetically does not dissolve the aporia but sharpens it – which constitutes the final dilemma.
+    </p>
+    <p>
+        To formulate the aporia, it is necessary to fix six principles that von Hildebrand asserts explicitly and which form the load-bearing structure of his system:
+    </p>
+    <ol>
+        <li>
+            <span class="principle-title">Principle 1. Objective Adequacy.</span> 
+            The response is determined exclusively by the value on the object side and must conform to its logos.
+            <blockquote>
+                «The value response is, therefore, essentially a conforming of our selves to the logos of the value. The very nature of the inner movement of the value response consists in partaking in the rhythm of the values.» (ch.17, p.196)
+            </blockquote>
+            <blockquote>
+                «The positive or negative character of a response depends completely and necessarily upon the value or disvalue grasped on the object side… so long as it is nourished and determined exclusively by the important-in-itself.» (ch.17, p.218)
+            </blockquote>
+            <blockquote>
+                «An adequate response ought to be given to every value; that is to say, a distinct and ultimate metaphysical value is realized in the fact that an adequate response is given. Indifference toward a value, an inadequate response, but still more a contrary response, constitute an objective disharmony which embodies a disvalue <em>sui generis</em>.» (ch.18, p.225)
+            </blockquote>
+        </li>
+        <li>
+            <span class="principle-title">Principle 2. Conditions of Moral Value and the Division of Two Spheres.</span> 
+            Hildebrand gathers the conditions of the moral value of an act in one passage which must be cited in full, since it delimits the exact domain of the aporia:
+            <blockquote>
+                «Our foregoing analysis has furnished us the different elements which are required for the moral value of a human act. It must first of all be a value response. &lt;…&gt; But, secondly, it must be more than simply any value response: the value motivating our response must be a morally relevant value. Thirdly, the value response must be based on an awareness of the moral significance of the situation, and imply a general will to be morally good. Fourthly, the value response must be free. This fourth condition is a fortiori fulfilled in every volitional value response, because the will is by its very nature free. But affective responses must be sanctioned in order to have a share in man's freedom and therefore in order to be endowed with moral values.» (ch.27, p.318)
+            </blockquote>
+            <p>
+                Hence a limitation that must be accepted honestly and at once: <strong>sanction as a separate reflexive act is required only for affective responses.</strong> The will is free by its very nature, and for volitional responses the fourth condition is fulfilled <em>a fortiori</em>.
+            </p>
+            <p>
+                This limitation does not weaken the aporia but aims it at its target. The affective sphere is not the periphery of Hildebrand's system but its summit and its original contribution:
+            </p>
+            <blockquote>
+                «They have unmasked the wrongness of the view that love, joy, contrition, must either be interpreted as volitional responses or else lose the possibility of embodying moral values.» (ch.27, p.326)
+            </blockquote>
+            <blockquote>
+                «But, as we shall see immediately, we find even in this sphere specific moral perfections which the volitional response does not possess.» (ch.27, p.326)
+            </blockquote>
+            <blockquote>
+                «But the joy over the existence of a value-endowed good embodies a conforming of our heart to the good, a much more intimate and qualitative union with the value, making the good and its existence our innermost, personal affair; all of which represents a perfection not possessed by the will.» (ch.27, p.327–328)
+            </blockquote>
+        </li>
+        <li>
+            <span class="principle-title">Principle 3. Bearer of Moral Value.</span> 
+            The ontological bearer of moral value is not the object, but the act and attitude of the person itself. 
+            <blockquote>«Only real persons, their acts and attitudes, can be morally good or bad… we must state as the first decisive characteristic of moral values that they presuppose a person, that they are essentially values of a person.» (ch.15, p.153)</blockquote>
+        </li>
+        <li>
+            <span class="principle-title">Principle 4. Sanction as Immanent Identification.</span> 
+            The response possesses full moral value only when the free spiritual centre of the person expressly identifies itself with it.
+            <blockquote>«The act is indeed motivated by the object, but it rests exclusively with the freedom of the person to allow himself to be motivated, to yield to the motivating power of the object: to say "yes" or "no" to it.» (ch.21, p.265)</blockquote>
+            <blockquote>«Here we touch upon the deepest point of man's freedom, i.e., the ultimate "yes" or "no" which our free spiritual center can utter. This freedom is not actualized in morally unconscious people.» (ch.25, p.296–297)</blockquote>
+            <blockquote>«Our free spiritual center expressly identifies itself with the response. This identification makes our response to be our own in a new sense, and in this way only does it become our full, conscious position toward the object.» (ch.25, p.299)</blockquote>
+            <blockquote>«Only the sanctioned response can be considered as a fully awakened response; it is the only fully conscious, free response.» (ch.25, p.300)</blockquote>
+            <p>Four further clarifications from chapter 25 are decisive for the aporia:</p>
+            <p><em>Sanction is an act of ultimate moral consciousness, not a peripheral accompaniment:</em></p>
+            <blockquote>«…what is at stake here is not merely the difference between an undisputed implicit solidarity and an expressly conscious solidarity, but the actualization of man's deepest freedom, which is indissolubly connected with full moral consciousness.» (ch.25, p.309)</blockquote>
+            <p><em>It is performed at the level illuminated by the logos of moral values:</em></p>
+            <blockquote>«In the sanction the person places himself on a completely different level, the objective level of the free confrontation with the call of the morally relevant values and their moral significance. On this level, which is illuminated by the logos of moral values, man is able to accomplish this ultimate, genuine confirmation with his free spiritual center.» (ch.25, p.309–310)</blockquote>
+            <p class="note">
+                <em>Limitation of this quotation.</em> The possessive «their» here refers to «the morally relevant values», not to the response: the discussion concerns the moral significance of the <em>values</em>, not the moral value of <em>my act</em>. The needed assertion comes from elsewhere – from Principle 6.
+            </p>
+            <p><em>It requires a greater degree of moral awakeness than any decision of the will:</em></p>
+            <blockquote>«The freedom which is actualized in sanction or disavowal originates in the deepest stratum of our free spiritual center and surpasses (as far as it concerns the degree of being morally awake which it presupposes) the actualization of freedom which is required for a decision of our will in the sphere of actions.» (ch.25, p.311)</blockquote>
+            <p><em>And it is not an external, subsequent act: it enters the response itself as its integral part:</em></p>
+            <blockquote>«Sanction and disavowal are not mere endorsements of our attitudes "from without," by our free spiritual center, such as when we endorse attitudes of other persons. &lt;…&gt; They are, on the contrary, a unique organic cooperating with or withdrawing from our affective responses, modifying them from within. &lt;…&gt; insofar as the sanction joins the affective response and becomes an integral element of it, and disavowal affects it in its very core and deprives it of its soul.» (ch.25, p.311)</blockquote>
+        </li>
+        <li>
+            <span class="principle-title">Principle 5. Prohibition of Thematization of One's Own Moral Value – and the Asymmetry with Disavowal.</span> 
+            The moral value of one's own act must not and cannot be thematized in the course of its accomplishment.
+            <blockquote>
+                «We have to realize that the moral values of our attitudes are not experienced as such in the accomplishment of our attitudes. They appear, as Max Scheler says, "on the back of our attitude or action." We are unable to look at them lest we distort the normal and genuine accomplishment of our attitude.» (ch.19, p.242)
+            </blockquote>
+            <blockquote>
+                «Everyone knows the danger of squinting at his objective moral goodness in doing good; it is a temptation of pride which we must reject and fight as a poison corroding the real moral value of our attitude.» (ch.19, p.243)
+            </blockquote>
+            <p>But the prohibition operates in one direction only. One's own morally <em>disvaluable</em> character not only <em>can</em> but <em>should</em> be thematized:</p>
+            <blockquote>
+                «Our own moral values are not only normally not experienced as such, they are not destined to form the object of reflexive contemplation. Humility places a veil over them. Our own moral disvalues, on the contrary, should be made into an object in an examination of conscience or in contrition. In these cases of a legitimate and even morally obligatory reflexive self-contemplation, our own attitude forms the very object of our consideration, and in looking at its disvalue we must precisely consider it from without; we must look at the disvalue on the "back" of our attitude.» (ch.19, p.243)
+            </blockquote>
+        </li>
+        <li>
+            <span class="principle-title">Principle 6. Distribution of Sanction and Disavowal by Moral Quality.</span> 
+            Sanction and disavowal are strictly distributed according to the moral quality of the response. To distinguish sanction from its caricature, the subject must grasp the moral quality of their own response.
+            <blockquote>
+                «…the sanction is only possible toward affective attitudes having the character of a value response, and disavowal only possible toward attitudes which are endowed with a disvalue and especially with a moral disvalue…» (ch.25, p.302)
+            </blockquote>
+            <blockquote>
+                «Let us suppose that a morally conscious man feels joy because of the misfortune of his neighbor… <strong>Being aware of the morally negative character of this joy</strong>, he disavows it…» (ch.25, p.298)
+            </blockquote>
+            <p>
+                Moreover, pseudo-forms – «pseudo-sanction», «diabolical caricature of the sanction» – are defined precisely as express identification with a <em>morally negative</em> response: «This pseudo-sanction is, first, only possible toward morally negative attitudes» (ch.25, p.305). Hence, distinguishing genuine sanction from its caricature is possible only by the moral quality of the response with which the person identifies.
+            </p>
+            <p>
+                Therefore: in order to sanction rather than disavow (and not to perform a pseudo-sanction), the morally conscious person must grasp the moral quality of their own response. This is not an interpretation, but the condition of intelligibility of the very distinction that Hildebrand introduces.
+            </p>
+        </li>
+    </ol>
+
+    <!-- ================================================================== -->
+    <!-- 4. The Aporia of the Heart -->
+    <!-- ================================================================== -->
+    <h2 id="aporia">4. The Aporia of the Heart</h2>
+
+    <h3 id="scope">4.1. Scope</h3>
+    <p>
+        The theorem is asserted for <em>affective</em> value-responses and for <em>full</em> moral value (moral merit in the strict sense). Both restrictions are adopted not out of caution but because these are the conditions set by Hildebrand himself (p.318, p.309), and because within these bounds the blow falls on the point of greatest vulnerability: on the sphere of which Hildebrand asserts that it carries perfections unavailable to the will.
+    </p>
+
+    <h3 id="tension">4.2. The Key Tension</h3>
+    <p>
+        Hildebrand places on one and the same act two requirements of opposite direction.
+    </p>
+    <p>
+        On the one hand, the fullness of the moral value of an affective response requires <strong>sanction</strong>. Sanction is an act whose intentional object is the <em>subject's own response</em> («expressly identifies itself with the response», p.299); it is «indissolubly connected with full moral consciousness» (p.309); its level is «illuminated by the logos of moral values» (p.309–310); it requires a greater degree of moral awakeness than a decision of the will (p.311); and it is not external but enters the response as «an integral element of it» (p.311).
+    </p>
+    <p>
+        On the other hand, the moral value of one's own act must not be thematized <strong>in the course of its accomplishment</strong>: «not experienced as such in the accomplishment of our attitudes… We are unable to look at them lest we distort» (p.242).
+    </p>
+    <p>
+        To reconcile these is impossible. Sanction must take as its object precisely the act which, by Principle 3, is the bearer of moral value; must do so at a level illuminated by the logos of <em>moral</em> values; must possess <em>full</em> moral consciousness in doing so; must enter the response itself as its integral part – and must, through all this, fail to see in the response the very moral value for the sake of which it is worth identifying oneself with it.
+    </p>
+    <p>
+        Note that the last clarification (sanction becomes «an integral element» of the response) closes the most natural line of retreat. One cannot say that sanction is a separate subsequent act to which the prohibition «in the course of accomplishment» does not apply: by Hildebrand's own word it is performed <em>within</em> the response and modifies it <em>from within</em>.
+    </p>
+
+    <h3 id="axioms">4.3. Formalization and Axioms</h3>
+    <p>
+        Let us introduce the following notation:
+    </p>
+    <ul>
+        <li>$s$ – subject; $x$ – object; $r$ – a concrete affective value-response, $\mathrm{Aff}(r,s,x)$</li>
+        <li>$V(x)$ – object $x$ is endowed with a morally relevant value; $v(x)$ – the value itself (term, not formula)</li>
+        <li>$M_{\text{full}}(r)$ – $r$ possesses full moral value (moral merit in the strict sense)</li>
+        <li>$\mathrm{Sanc}(r)$ – $r$ is sanctioned by the free spiritual centre</li>
+        <li>$\mathrm{Disav}(r)$ – $r$ is disavowed</li>
+        <li>$\mathrm{MorPos}(r)$, $\mathrm{MorNeg}(r)$ – $r$ is morally positive, morally negative</li>
+        <li>$\mathrm{MorQual}(r)$ – the moral quality of response $r$</li>
+        <li>$\mathrm{Th}(s, \varphi)$ – $\varphi$ is thematized in the consciousness of $s$ in the course of performing the act</li>
+        <li>$\mathrm{Bearer}(\cdot)$ – ontological bearer of value</li>
+        <li>$\mathrm{Obj}(\sigma)$ – intentional field of act $\sigma$; $\mathrm{Part}(\sigma, r)$ – $\sigma$ is an integral part of $r$</li>
+        <li>$P(r)$ – purity of motivation; $A(r)$ – adequacy; $L(x)$ – logos of the value of object $x$</li>
+    </ul>
+
+    <p>The axioms are direct formalizations of Principles 1–6:</p>
+
+    <div class="math-block">
+        $$ \text{(A1)} \quad \mathrm{Aff}(r,s,x) \land M_{\text{full}}(r) \rightarrow P(r) \land A(r) \land \mathrm{Sanc}(r) $$
+    </div>
+    <p style="text-indent: 0; font-size: 1em; color: #555;">
+        <em>Full moral value of an affective response requires purity, adequacy, and sanction. Formulated as implication, not equivalence: Hildebrand does not consider these conditions sufficient, and the proof needs only one direction. (Principle 2, ch.27, p.318; ch.25, p.309)</em>
+    </p>
+
+    <div class="math-block">
+        $$ \text{(A2)} \quad P(r) \leftrightarrow \forall m \left( \mathrm{Mot}(m,r) \rightarrow \mathrm{Val}(m) \right) $$
+    </div>
+    <p style="text-indent: 0; font-size: 1em; color: #555;">
+        <em>Purity of motivation: what is excluded is the admixture of other categories of importance, not other values. (Principle 1, ch.17, p.218). Not used in the proof.</em>
+    </p>
+
+    <div class="math-block">
+        $$ \text{(A3)} \quad A(r) \leftrightarrow \mathrm{Conf}\bigl(r, L(x)\bigr) $$
+    </div>
+    <p style="text-indent: 0; font-size: 1em; color: #555;">
+        <em>Adequacy is conformity to the logos of the value. (Principle 1, ch.17, p.196). Not used in the proof.</em>
+    </p>
+
+    <div class="math-block">
+        $$ \text{(A4)} \quad M_{\text{full}}(r) \rightarrow \mathrm{Bearer}\bigl(M_{\text{full}}(r)\bigr) = r $$
+    </div>
+    <p style="text-indent: 0; font-size: 1em; color: #555;">
+        <em>The bearer of moral value is the act itself. (Principle 3, ch.15, p.153)</em>
+    </p>
+
+    <div class="math-block">
+        $$ \text{(A5)} \quad \mathrm{Sanc}(r) \leftrightarrow \exists \sigma \left( r \in \mathrm{Obj}(\sigma) \land \mathrm{Express}(\sigma) \land \mathrm{Ident}(s,\sigma,r) \land \mathrm{Part}(\sigma,r) \right) $$
+    </div>
+    <p style="text-indent: 0; font-size: 1em; color: #555;">
+        <em>Sanction is an act $\sigma$ of the free spiritual centre whose intentional field contains the response $r$ itself, which expressly identifies the person with $r$, and which enters $r$ as its integral part. (Principle 4, ch.25, p.299, p.311)</em>
+    </p>
+
+    <div class="math-block">
+        $$ \text{(A6)} \quad \mathrm{Th}\bigl(s, M_{\text{full}}(r)\bigr) \rightarrow \neg M_{\text{full}}(r) $$
+    </div>
+    <p style="text-indent: 0; font-size: 1em; color: #555;">
+        <em>Thematization of the moral value of one's own act in the course of its accomplishment deprives the act of moral value. (Principle 5, ch.19, p.242–243)</em>
+    </p>
+
+    <div class="math-block">
+        $$ \text{(A7)} \quad \mathrm{Sanc}(r) \rightarrow \mathrm{FullMoralConsc}(s, \sigma) \land \neg\mathrm{Peripheral}(\sigma) $$
+    </div>
+    <p style="text-indent: 0; font-size: 1em; color: #555;">
+        <em>Sanction is indissolubly connected with full moral consciousness and cannot be a peripheral or non-thematic awareness. (Principle 4, ch.25, p.309, p.311)</em>
+    </p>
+
+    <div class="math-block">
+        $$ \text{(A8)} \quad \mathrm{Sanc}(r) \rightarrow \mathrm{MorPos}(r) \qquad\text{and}\qquad \mathrm{Disav}(r) \rightarrow \mathrm{MorNeg}(r) $$
+    </div>
+    <p style="text-indent: 0; font-size: 1em; color: #555;">
+        <em>Sanction is possible only toward a morally positive response; disavowal only toward a morally negative one. (Principle 6, ch.25, p.302)</em>
+    </p>
+
+    <div class="math-block">
+        $$ \text{(A9)} \quad \bigl(\mathrm{Sanc}(r) \lor \mathrm{Disav}(r)\bigr) \rightarrow \mathrm{Th}\bigl(s, \mathrm{MorQual}(r)\bigr) $$
+    </div>
+    <p style="text-indent: 0; font-size: 1em; color: #555;">
+        <em>The morally conscious person, in performing sanction or disavowal, thereby determines the moral quality of their own response. Disavowal is directly described as performed «being aware of the morally negative character of this joy» (p.298); genuine sanction is distinguished from pseudo-sanction precisely by the moral quality of the response. (Principle 6, ch.25, p.298, p.302, p.305)</em>
+    </p>
+
+    <div class="math-block">
+        $$ \text{(A10)} \quad \Bigl( \mathrm{Th}\bigl(s, \mathrm{MorQual}(r)\bigr) \land \mathrm{MorPos}(r) \Bigr) \rightarrow \mathrm{Th}\bigl(s, M_{\text{full}}(r)\bigr) $$
+    </div>
+    <p style="text-indent: 0; font-size: 1em; color: #555;">
+        <em>To thematize $\mathrm{MorQual}(r)$ in the positive case is to experience the moral value of one's own attitude «as such» – precisely what is prohibited by A6. By A4, the bearer of this quality is the act itself. <strong>This is the sole interpretive axiom: the entire aporia rests upon it.</strong> (cf. Principle 3, ch.15, p.153; Principle 5, ch.19, p.242)</em>
+    </p>
+
+    <p class="note">
+        <strong>Note on axioms.</strong> Axioms A1–A9 are direct translations of Hildebrand's assertions, furnished with references. The sole load-bearing premise of the attack is axiom A10, and it is precisely this axiom that is subject to discussion. Axioms A2, A3 are not used in the proof: they are retained for completeness and to make visible which requirements of the system the aporia does <em>not</em> touch.
+    </p>
+
+    <h3 id="theorem">4.4. Theorem (The Aporia of the Heart)</h3>
+    <div class="math-block">
+        $$ \forall s \, \forall x \, \Bigl( V(x) \rightarrow \neg \exists r \bigl( \mathrm{Aff}(r,s,x) \land M_{\text{full}}(r) \bigr) \Bigr) $$
+    </div>
+    <p>
+        <em>For any subject $s$ and any morally relevant object $x$, there does not exist an affective value-response $r$ possessing full moral value.</em>
+    </p>
+
+    <h4>Proof</h4>
+    <p>
+        Let $V(x)$ and $\mathrm{Aff}(r,s,x)$. The response $r$ is either sanctioned or not; the cases are exhaustive and mutually exclusive.
+    </p>
+
+    <p>
+        <strong>Horn 1: Assume $\mathrm{Sanc}(r)$ (the response is sanctioned).</strong>
+    </p>
+    <p>
+        By axiom A5, there exists an act $\sigma$ whose intentional field contains the response $r$ itself, which expressly identifies the person with $r$, and which is an integral part of $r$. The last condition means that everything thematized in $\sigma$ is thematized «in the accomplishment» of the response $r$, i.e. falls under the prohibition of axiom A6.
+    </p>
+    <p>
+        By axiom A8, from $\mathrm{Sanc}(r)$ follows $\mathrm{MorPos}(r)$: sanction is possible only toward a response having the character of a value-response, and identification with a morally negative response is not sanction but its caricature.
+    </p>
+    <p>
+        By axiom A9, hence $\mathrm{Th}(s, \mathrm{MorQual}(r))$. This is the step that bears the principal load, and its ground is purely structural: sanction and disavowal are distributed by the moral quality of the response and are mutually exclusive. A subject who has not grasped the moral quality of their response cannot know which of the two acts is appropriate here, and consequently performs neither – remaining in «undisputed solidarity», i.e. in the state of the morally unconscious person. Hildebrand confirms this with his own example: disavowal is performed «being aware of the morally negative character of this joy» (p.298).
+    </p>
+    <p>
+        By axiom A7, this grasp cannot be peripheral or implicit: sanction is indissolubly connected with <em>full</em> moral consciousness and presupposes a degree of moral awakeness higher than that required for a decision of the will.
+    </p>
+    <p>
+        By axiom A10, hence $\mathrm{Th}(s, M_{\text{full}}(r))$.
+    </p>
+    <p>
+        By axiom A6, we obtain $\neg M_{\text{full}}(r)$.
+    </p>
+    <div class="math-block">
+        $$ \mathrm{Sanc}(r) \Rightarrow \mathrm{Th}\bigl(s, \mathrm{MorQual}(r)\bigr) \Rightarrow \mathrm{Th}\bigl(s, M_{\text{full}}(r)\bigr) \Rightarrow \neg M_{\text{full}}(r) $$
+    </div>
+    <p>
+        It is essential that this horn contains <em>no accusation of egoism</em>. The subject does not «squint at himself» in the manner of the Pharisee, does not preen, does not instrumentalize the neighbour. He does precisely what Hildebrand demands of him: with ultimate moral consciousness, he identifies his spiritual centre with his response. This is precisely why the distinctions of chapter 19 (Pharisaism vs. awareness of moral significance; pride vs. value-response) do not work here: they differentiate <em>motives</em>, whereas the aporia concerns the <em>intentional structure</em> of sanction.
+    </p>
+
+    <p>
+        <strong>Horn 2: Assume $\neg \mathrm{Sanc}(r)$ (the response is not sanctioned).</strong>
+    </p>
+    <p>
+        By axiom A1, the presence of full moral value implies sanction ($M_{\text{full}}(r) \rightarrow \mathrm{Sanc}(r)$). By modus tollens:
+    </p>
+    <div class="math-block">
+        $$ \neg \mathrm{Sanc}(r) \Rightarrow \neg M_{\text{full}}(r) $$
+    </div>
+    <p>
+        Textually this horn is equally secure. The unsanctioned response is not fully connected with freedom:
+    </p>
+    <blockquote>
+        «The unsanctioned morally positive response, however, since it lacks the cooperation of our free spiritual center in being unsanctioned is not sufficiently connected with our freedom to constitute a morally good attitude in the full sense. It shares with the morally negative attitude the imperfection of failing to actualize our free spiritual center, despite the fact that the value on the object side calls for it; hence it is incapable of granting full moral merit.» (ch.25, p.309)
+    </blockquote>
+    <p>
+        Precision is required here. Hildebrand does <em>not</em> assert that the unsanctioned good affective response is devoid of moral value altogether:
+    </p>
+    <blockquote>
+        «It even renders a person lovable, but it is not the positive counterpart to the moral fault which the non-disavowed morally evil affective response represents. It is not a moral merit or perfection to the same extent as the other is a moral fault or imperfection.» (ch.25, p.309)
+    </blockquote>
+    <p>
+        This is why the theorem is formulated precisely through $M_{\text{full}}$: what is denied is moral merit in the strict sense, not any moral colouring whatsoever.
+    </p>
+
+    <p>
+        <strong>Conclusion:</strong>
+    </p>
+    <p>
+        Since the cases $\mathrm{Sanc}(r)$ and $\neg \mathrm{Sanc}(r)$ are exhaustive, in both cases we obtain $\neg M_{\text{full}}(r)$. Consequently, since $r$ is arbitrary, $\neg \exists r (\mathrm{Aff}(r,s,x) \land M_{\text{full}}(r))$. $\blacksquare$
+    </p>
+
+    <h3 id="consequence">4.5. Consequence: The Affective Sphere as Debit Without Credit</h3>
+    <p>
+        From this follows a result more devastating than the theorem itself – but it must be formulated precisely, since the tempting strong formulation would be false.
+    </p>
+    <p>
+        It would be false to say that Hildebrand's ethics «collapses into an ethics of the will». The affective sphere retains moral relevance: the unsanctioned good response «renders a person lovable» (p.309), the capacity for sanction and disavowal preserves imputability, and the distinction between the morally conscious and the morally unconscious person remains in force. What is lost is not the significance of the affective sphere, but its <em>moral merit</em>.
+    </p>
+    <p>
+        But it is precisely this loss that constitutes the blow, because it is asymmetric. Moral <em>guilt</em> in the affective sphere remains fully attainable: a non-disavowed evil response «suffices to stain us morally» (p.309), and for this nothing is required of the subject beyond inaction. Moral <em>merit</em> becomes unattainable: it requires sanction, and sanction is self-defeating. The result: the affective sphere is transformed into a domain where a person can only be debited and never credited. According to Hildebrand, this asymmetry exists in attenuated form and is acknowledged by him directly («A higher cooperation of freedom is required for the morally virtuous attitude than for the morally bad one», p.309); the aporia drives it to its limit, converting a difference in degree into a difference in kind.
+    </p>
+    <p>
+        The loss falls precisely where Hildebrand sees his contribution. He asserts that the affective sphere carries «specific moral perfections which the volitional response does not possess» (p.326): the conformity of the heart to the good, a qualitative union with value, making the good «our innermost, personal affair» – «a perfection not possessed by the will» (p.327–328). If full moral merit is unattainable here, these perfections remain real but cease to be <em>moral merits</em>. Love of God and of neighbour, contrition, reverence retain their quality but are deprived of the status for which Hildebrand waged his entire polemic: they cannot be imputed to the person as moral merit. The heart remains capable of perfection but incapable of merit.
+    </p>
+
+    <!-- ================================================================== -->
+    <!-- 5. Three Objections -->
+    <!-- ================================================================== -->
+    <h2 id="objections">5. Three Objections</h2>
+    <p>
+        Against the aporia three objections are naturally raised, resting on genuine phenomenological distinctions. The first and third are blocked by the text. The second partially succeeds, and I accept it in the part where it is right.
+    </p>
+
+    <h3>Objection One: Non-Thematic, Peripheral Awareness</h3>
+    <p>
+        The prohibition of Principle 5 is formulated as a prohibition of <em>thematization</em> («not destined to form the object of reflexive contemplation», p.243), and sanction can be construed as awareness without thematization: the subject is aware of the response as their own without making its moral value the object of reflexive contemplation.
+    </p>
+    <p>
+        A strong objection, but textually closed. Sanction in Hildebrand is not the periphery of consciousness but its maximum: it is «indissolubly connected with full moral consciousness» (p.309) and in the degree of required moral awakeness <em>surpasses</em> a decision of the will (p.311). Peripheral, marginal awareness cannot be the «deepest stratum» of freedom and the «supreme actualization of our freedom» (p.311).
+    </p>
+
+    <h3>Objection Two: Sanction Grasps the Moral Significance of the <em>Situation</em>, Not the Moral Value of One's Own Act</h3>
+    <p>
+        This is the strongest of the objections, resting on a genuine distinction from chapter 19: moral significance appears «as the moral goodness of the action or attitude <strong>as such</strong>, as a task which we want to fulfill», and «clearly differs from any reflective focusing on our own personality» (p.242). The subject can be aware that something morally significant is at stake without contemplating the moral goodness of their response.
+    </p>
+    <p>
+        The objection is correct insofar as the passage p.309–310 is concerned: «their moral significance» refers there to the values, not to the response, and from this passage the required conclusion cannot be drawn. But it does not reach axioms A8–A10, because these rest on something else: not on the moral significance of the situation, but on the <em>distribution of sanction and disavowal by the moral quality of one's own response</em>. Sanction is possible only toward a morally positive response, disavowal only toward a morally negative one (p.302). The decisive confirmation is provided by Hildebrand himself: disavowal is performed «being aware of the morally negative character of <strong>this joy</strong>» (p.298). Here what is thematized is precisely the moral character of one's own affective response, named demonstratively. <em>Schadenfreude</em> is not located on the side of the object.
+    </p>
+
+    <h3>Objection Three: Sanction Is an Act about the Response, Not about Its Moral Merit</h3>
+    <p>
+        The «Yes» is said to the response as such, not to its predicate «being morally valuable»; the gaze of the subject passes <em>through</em> the act to the object.
+    </p>
+    <p>
+        Here the entire burden of defense is concentrated, and it falls on the denial of axiom A10: granted that the moral quality of the response is grasped, it is not grasped <em>as «my moral value»</em>. Denying this is difficult for three reasons. First, axiom A6 prohibits precisely what is happening here: the moral values of the attitude are not to be experienced «as such», and the grasp «this response of mine is morally positive» is an experience of them as such. Second, by axiom A4, the bearer of this quality is the act itself; for the gaze to pass «through» the act, the quality would have to be located <em>behind</em> it, but it is located <em>in</em> it. Third, denying axiom A10 requires asserting that in the negative case the subject grasps the moral quality of their response directly and fully (which Hildebrand says in plain text), while in the positive case – by some other, weakened mode. But that is no longer a denial of axiom A10; it is a reference to the asymmetry, which is the subject of the next section.
+    </p>
+    <p>
+        Thus, to preserve the system one can – but only by occupying a position that must be named directly: the moral quality of one's own response is transparent to the subject when the response is bad, and opaque when it is good. This is not a contradiction in terms. But it requires a ground.
+    </p>
+
+    <!-- ================================================================== -->
+    <!-- 6. The Decisive Blow -->
+    <!-- ================================================================== -->
+    <h2 id="asymmetry">6. The Decisive Blow: Asymmetry of Sanction and Disavowal</h2>
+    <p>
+        Even if the preceding move is accepted, there remains a question to which Hildebrand has no eidetic answer. This is, in my estimation, the point of greatest damage.
+    </p>
+    <p>
+        Sanction and disavowal are two modes of one and the same capacity, cooperative freedom, taking a position toward one's own affective response. Hildebrand describes them as a pair, in one sentence, with one and the same structure: «a unique organic cooperating with or withdrawing from our affective responses, modifying them from within» (p.311).
+    </p>
+    <p>
+        But with respect to their own moral quality, these two modes are subject to directly opposite requirements.
+    </p>
+    <p>
+        Disavowal <em>obliges</em> making one's own response an object and seeing its morally disvaluable character from without: «our own attitude forms the very object of our consideration, and in looking at its disvalue we must precisely consider it from without; we must look at the disvalue on the "back" of our attitude» (p.243). This reflexive self-contemplation is called «legitimate and even morally obligatory».
+    </p>
+    <p>
+        Sanction, conversely, <em>prohibits</em> seeing one's own morally valuable character: «not destined to form the object of reflexive contemplation».
+    </p>
+    <p>
+        Thus one and the same capacity must be morally sighted with respect to its response when the response is bad, and morally blind with respect to its response when the response is good. We ask: what grounds this asymmetry? In the text there is exactly one answer:
+    </p>
+    <blockquote>
+        «Humility places a veil over them.» (ch.19, p.243)
+    </blockquote>
+    <p>
+        Humility. The ground of the prohibition is not the essential structure of intentional consciousness, but a virtue; not an eidetic necessity, but an ascetic norm.
+    </p>
+
+    <h3 id="eidetic">6.1. Can the Asymmetry Be Grounded Eidetically?</h3>
+    <p>
+        On Hildebrand's behalf one can propose a grounding he himself did not give. The asymmetry is not arbitrary but rooted in the difference of intentional structures of the relation to good and evil. Contemplation of one's own virtue introduces a moment of self-affirmation and thereby <em>destroys</em> it. Contemplation of one's own evil, on the contrary, is contrition – an adequate response to evil – and therefore does not aggravate but <em>overcomes</em> it. The asymmetry is thus eidetic: self-reflection on good is structurally incompatible with good; self-reflection on evil is structurally necessary for its overcoming.
+    </p>
+    <p>
+        This is the best available defense, and it does not work – precisely because it is too good. Consider contrition.
+    </p>
+    <p>
+        Contrition (<em>contritio</em>) is, according to Hildebrand, an affective response, and moreover one of the paradigmatic bearers of moral value: «we are touched by the moral beauty of a deep contrition» (ch.27, p.319); «the wrongness of the view that <strong>love, joy, contrition</strong>, must either be interpreted as volitional responses or else lose the possibility of embodying moral values» (ch.27, p.326).
+    </p>
+    <p>
+        But an affective response attains full moral merit only through sanction (p.318). Hence contrition must be sanctioned. And sanction, by axioms A8–A9, requires grasping the moral quality of the sanctioned response as positive.
+    </p>
+    <p>
+        Let us put this together. Contrition is a response whose <em>object</em> is my own moral evil – i.e. an act that Hildebrand considers obligatory and that directly thematizes my morally disvaluable character (p.243). For contrition to attain moral merit, I must sanction it, i.e. grasp it as morally positive. Consequently, I am obliged in one and the same complex act to:
+    </p>
+    <ol>
+        <li>thematize my own moral evil – this is prescribed (p.243);</li>
+        <li>grasp the moral goodness of this thematizing – this is required by sanction (p.302, p.318);</li>
+        <li>not grasp the moral goodness of this thematizing – this is prohibited (p.243).</li>
+    </ol>
+    <p>
+        The proposed eidetic grounding of the asymmetry is powerless here, because contrition stands on both sides of it simultaneously. It is self-reflection on evil, which, by this grounding, is structurally beneficial; and it is a morally positive affective response, self-reflection on which, by the same grounding, is structurally destructive. The difference of intentional structures cannot separate these two descriptions, for they describe one and the same act.
+    </p>
+    <p>
+        Worse: the eidetic grounding does not weaken the aporia but strengthens it. As long as the prohibition was an ascetic norm, it admitted exceptions and degrees. Converted into a necessary law, it collides with another necessary law – the requirement of sanction – and the collision ceases to be eliminable.
+    </p>
+
+    <h3 id="dilemma">6.2. The Final Dilemma</h3>
+    <p>
+        Hence a dilemma from which, as I believe, there is no exit.
+    </p>
+    <p>
+        <strong>If the prohibition of thematization has eidetic character</strong> – if it expresses a necessary connection of essences, as it should in an ethics claiming <em>a priori</em> insight – then it must be symmetric, for the structure of reflection on one's own act is one and the same in both modes. But then either disavowal is impossible (which destroys imputability for evil affective responses and demolishes chapter 25), or sanction is possible (and then the prohibition is false, and Principle 5 is annulled together with the teaching on Pharisaism).
+    </p>
+    <p>
+        <strong>If the prohibition has ascetic character</strong> – if thematization is destructive only insofar as it is rooted in pride, and the veil is placed by humility – then the criterion of moral value ceases to be <em>structural</em> (what is given to consciousness in the act) and becomes <em>genetic</em> (from what psychic source does attention to the act proceed). The aporia then dissipates, but at the price of the book's central claim: ethics ceases to be an <em>a priori</em> insight into necessary connections between value and due response and becomes a description of psychic mechanisms and their spiritual hygiene.
+    </p>
+    <p>
+        The text itself vacillates between two registers. On p.242 Hildebrand states: «the moral values of our attitudes are <em>not experienced</em> as such in the accomplishment of our attitudes» – this is a statement of fact, not a prohibition. Further: «We are <em>unable</em> to look at them lest we distort» – impossibility. But already on p.243 we find: «Everyone knows the <em>danger</em> of squinting at his objective moral goodness in doing good; it is a <em>temptation</em> of pride which we must <em>reject and fight</em>» – here «danger» and «temptation», i.e. ascetic language presupposing that the look is <em>possible</em> but destructive. The oscillation between «we cannot» and «we must not» is not accidental negligence but a symptom of an unresolved question about the status of the prohibition.
+    </p>
+    <p>
+        In other words: <strong>the aporia does not refute Hildebrand, but forces him to choose between imputability and aprioricity.</strong> He can preserve the structural character of the prohibition – and lose the moral value of the affective sphere together with his chief discovery. Or he can weaken the prohibition to an ascetic counsel – and lose the eidetic status of his ethics. A third ground for the asymmetry the text does not offer.
+    </p>
+
+    <!-- ================================================================== -->
+    <!-- 7. What the Aporia Does Not Prove -->
+    <!-- ================================================================== -->
+    <h2 id="limits">7. What the Aporia Does Not Prove</h2>
+    <ul>
+        <li>The aporia does not prove that no response can be adequate: adequacy (axiom A3) is preserved in both horns. Only full moral merit is affected.</li>
+        <li>The aporia does not prove that the unsanctioned good response is morally neutral. Hildebrand directly says it «renders a person lovable» (p.309); what is denied is <em>moral merit</em>, not any moral colouring. This is why $M_{\text{full}}$ appears in the theorem, not $M$.</li>
+        <li>The aporia does not extend to volitional responses: for them the fourth condition is fulfilled <em>a fortiori</em> (p.318), and no separate act of sanction is required.</li>
+        <li>The aporia is not a general argument against any ethics that attributes moral value to actions. It exploits a rare combination: moral value is the value of the person; its thematization in the act destroys it; the fullness of moral value requires an immanent reflexive act of ultimate moral consciousness directed at one's own response. Aristotelian ethics, where the virtuous person may well be aware of the nobility of their deed, does not fall under this argument; nor does any ethics without a requirement of sanction.</li>
+        <li>The aporia does not attribute to the subject either egoism, or vanity, or instrumentalization of the neighbour. In chapter 19 Hildebrand anticipates and rebuts precisely such accusations, and an attack that repeats them shatters against his text.</li>
+        <li>The aporia does not prove that Hildebrand's ethics reduces to an ethics of the will. The affective sphere retains moral relevance and imputability; it loses the possibility of moral merit.</li>
+        <li>Finally, the aporia is not derived entirely from the letter of the text. Axioms A1–A9 translate Hildebrand's assertions; axiom A10 is an interpretive step, and I mark it as such. It asserts that grasping «this response of mine is morally positive» is experiencing the moral value of one's own attitude «as such». This is plausible to the point of near-obviousness, but it is nonetheless an identification of two descriptions, not a quotation. The entire aporia rests upon it, and it is more honest to say so directly than to hide the step in prose.</li>
+    </ul>
+
+    <!-- ================================================================== -->
+    <!-- 8. Anticipation of Defenses -->
+    <!-- ================================================================== -->
+    <h2 id="defenses">8. Anticipation of Defenses</h2>
+    <p>
+        The aporia has been presented. Now three lines of defense that can be constructed on Hildebrand's behalf must be considered – and it must be shown why none of them relieves the tension. Each rests on genuine phenomenological resources of the text and exposes a new aspect of the dilemma.
+    </p>
+
+    <h3 id="defense-1">8.1. Defense One: «Self-Transcendence» vs. «Self-Objectification»</h3>
+    <h4>Formulation of the Defense</h4>
+    <p>
+        It may be argued that axiom A10 is false, because grasping the moral quality of the response and reflexively contemplating one's own moral merit are not the same thing. The saint, in sanctioning love, says «Yes» not to their virtue but to <em>the very movement of love</em> as an act of self-transcendence (<em>Selbsttranszendenz</em>). The prohibition of Principle 5 concerns <em>self-objectification</em> – the look at oneself as possessor of merit. Sanction requires only identification with the movement of the response, understood as an adequate answer to the logos of value.
+    </p>
+
+    <h4>Why the Defense Does Not Work</h4>
+    <p>
+        <strong>First, it reformulates the prohibition rather than lifting it.</strong> The defense introduces a distinction between (a) awareness that «this love is true and morally irreproachable» and (b) awareness that «I am the possessor of merit». But look at what (a) contains: «it is morally irreproachable» – this <em>is</em> the thematization of the moral quality of the response. Yet Hildebrand prohibits not a particular <em>attitude</em> toward what is seen (proud vs. humble) but the <em>look</em> itself:
+    </p>
+    <blockquote>
+        «We are unable to look at them lest we distort the normal and genuine accomplishment of our attitude.» (ch.19, p.242)
+    </blockquote>
+    <p>
+        «We are unable to look at them» – this is an impossibility, not a caution against a certain mode of looking.
+    </p>
+    <p>
+        <strong>Second, the defense performs a substitution in the description of sanction.</strong> When it is said that the spiritual centre says «Yes» to <em>the value-response itself as an act of self-transcendence</em>, the word «self-transcendence» already contains an evaluative – and indeed moral – characterization of the response. To call the response «self-transcendence» is to <em>determine</em> its moral quality, merely in other words.
+    </p>
+    <p>
+        <strong>Third, the defense does not answer the structural argument of axioms A8–A9.</strong> Sanction is possible <em>only</em> toward a morally positive response (p.302), disavowal <em>only</em> toward a morally negative one. To distinguish sanction from pseudo-sanction, the subject <em>must</em> determine the moral quality of the response – whatever word we give that determination.
+    </p>
+    <p>
+        <strong>Fourth, «the act of self-giving» does not cease to be an act of the subject.</strong> By axiom A4 (p.153) moral value is «essentially values of a person» – it belongs to the subject, not to «the movement» or to «the process of self-transcendence» as an impersonal event. For the subject's gaze to pass «through» the act to the object, the moral quality would have to be located <em>behind</em> the act. But it is located <em>in</em> it.
+    </p>
+
+    <h3 id="defense-2">8.2. Defense Two: Eidetic Status of Asymmetry via Ontology of Good and Evil</h3>
+    <h4>Formulation of the Defense</h4>
+    <p>
+        The asymmetry between sanction and disavowal is not an ascetic norm but an ontological law of the intentionality of spirit. Good is <em>bonum diffusivum sui</em> (self-diffusing good), ecstasis, going-beyond-self. Reflection on one's own good <em>arrests</em> it, converting it into a «thing» the subject possesses, and thereby destroys its ecstatic nature. Evil is <em>privatio boni</em>, closure; reflection on one's own evil is an ontological return to order.
+    </p>
+    <h4>Why the Defense Does Not Work</h4>
+    <p>
+        <strong>First, this is precisely the eidetic grounding already examined and refuted through contrition</strong> in §6.1. Contrition stands on both sides of the asymmetry simultaneously.
+    </p>
+    <p>
+        <strong>Second, the formulation <em>bonum diffusivum sui</em> works <em>against</em> the defense.</strong> If good «diffuses itself», it must be accessible to perception – including the perception of the one in whom it is realized. A «self-diffusing good» that is in principle imperceptible by the subject is a <em>contradictio in adjecto</em>: to diffuse is to manifest. Notably, Hildebrand himself uses this formula in the context of charitable love (ch.27, p.332). Nothing in his description presupposes the invisibility of this effusion to the one who loves.
+    </p>
+    <p>
+        <strong>Third, the analogy with the eye is false.</strong> Hildebrand <em>requires</em> that disavowal include a reflexive look at one's own response: «we must precisely consider it from without» (p.243). Thus the «eye» <em>can</em> see itself – when it sees its evil. The analogy with physical vision collapses the moment one of its cases is directly contradicted by the text.
+    </p>
+
+    <h3 id="defense-3">8.3. Defense Three: Contrition as «Kenosis»</h3>
+    <h4>Formulation of the Defense</h4>
+    <p>
+        Contrition is <em>kenosis</em> – self-emptying. Its moral quality ($\mathrm{MorQual}$) <em>consists</em> in its capacity to destroy selfhood, pride, «I». In sanctioning contrition, the free spiritual centre says «Yes» not to «my moral merit for being contrite» but to <em>the very act of my destruction before the face of God</em>. In the case of contrition, $\mathrm{MorQual}(r)$ and $M_{\text{full}}(r)$ «phenomenologically diverge»: the moral merit of contrition consists in the fact that it <em>leaves no object for pride</em>.
+    </p>
+    <h4>Why the Defense Does Not Work</h4>
+    <p>
+        <strong>First, the separation of $\mathrm{MorQual}(r)$ and $M_{\text{full}}(r)$ directly contradicts axiom A4 (p.153).</strong> Moral value is the value <em>of the person</em>, of their acts and attitudes. If the moral quality of an act and its moral value «phenomenologically diverge», then moral quality is not its moral value. But what then does Hildebrand call «the moral value of a human act» on p.318? The moral quality of the act <em>is</em> its moral value; their separation is not the defense of the system but its dismantlement.
+    </p>
+    <p>
+        <strong>Second, «kenosis» does not solve the problem but relocates it.</strong> Even if contrition is understood as self-emptying, the subject who sanctions it still performs an act of identification with a response whose moral quality must be grasped as positive (A8, A9). The self-emptying character of the response does not erase the fact that it remains a morally positive act of a person – and sanction requires the subject to know this.
+    </p>
+
+    <!-- ================================================================== -->
+    <!-- Footer -->
+    <!-- ================================================================== -->
+    <footer>
+        <p style="text-align: center;">The Poison of Purity – The Structural Contradiction of Moral Sanction in Hildebrand's Axiology</p>
+    </footer>
+
+</body>
+</html>
